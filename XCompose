@@ -1,0 +1,66 @@
+# § ASCII control codes
+#
+# ASCII control codes using caret notation.
+#
+# See: https://en.wikipedia.org/wiki/C0_and_C1_control_codes#C0_(ASCII_and_derivatives)
+<Multi_key> <at> <at> : "␀" # Null (\0)
+<Multi_key> <at> <a> : "␁" # Start of Heading
+<Multi_key> <at> <b> : "␂" # Start of Text
+<Multi_key> <at> <c> : "␃" # End of Text
+<Multi_key> <at> <d> : "␄" # End of Transmission
+<Multi_key> <at> <e> : "␅" # Enquiry
+<Multi_key> <at> <f> : "␆" # Acknowledge
+<Multi_key> <at> <g> : "␇" # Bell, Alert (\a)
+<Multi_key> <at> <h> : "␈" # Backspace (\b)
+<Multi_key> <at> <i> : "␉" # Character Tabulation, Horizontal Tabulation (\t)
+<Multi_key> <at> <j> : "␊" # Line Feed (\n)
+<Multi_key> <at> <k> : "␋" # Line Tabulation, Vertical Tabulation (\v)
+<Multi_key> <at> <l> : "␌" # Form Feed (\f)
+<Multi_key> <at> <m> : "␍" # Carriage Return (\r)
+<Multi_key> <at> <n> : "␎" # Shift Out
+<Multi_key> <at> <o> : "␏" # Shift In
+<Multi_key> <at> <p> : "␐" # Data Link Escape
+<Multi_key> <at> <q> : "␑" # Device Control One (XON)
+<Multi_key> <at> <r> : "␒" # Device Control Two
+<Multi_key> <at> <s> : "␓" # Device Control Three (XOFF)
+<Multi_key> <at> <t> : "␔" # Device Control Four
+<Multi_key> <at> <u> : "␕" # Negative Acknowledge
+<Multi_key> <at> <v> : "␖" # Synchronous Idle
+<Multi_key> <at> <w> : "␗" # End of Transmission Block
+<Multi_key> <at> <x> : "␘" # Cancel
+<Multi_key> <at> <y> : "␙" # End of medium
+<Multi_key> <at> <z> : "␚" # Substitute
+<Multi_key> <at> <bracketleft> : "␛" # Escape (\e)
+<Multi_key> <at> <backslash> : "␜" # File Separator
+<Multi_key> <at> <bracketright> : "␝" # Group Separator
+<Multi_key> <at> <asciicircum> : "␞" # Record Separator
+<Multi_key> <at> <underscore> : "␟" # Unit Separator
+<Multi_key> <at> <space> : "␠" # Space
+<Multi_key> <at> <question> : "␡" # Delete
+# §2 Capital letter variants
+<Multi_key> <at> <A> : "␁" # Start of Heading
+<Multi_key> <at> <B> : "␂" # Start of Text
+<Multi_key> <at> <C> : "␃" # End of Text
+<Multi_key> <at> <D> : "␄" # End of Transmission
+<Multi_key> <at> <E> : "␅" # Enquiry
+<Multi_key> <at> <F> : "␆" # Acknowledge
+<Multi_key> <at> <G> : "␇" # Bell, Alert (\a)
+<Multi_key> <at> <H> : "␈" # Backspace (\b)
+<Multi_key> <at> <I> : "␉" # Character Tabulation, Horizontal Tabulation (\t)
+<Multi_key> <at> <J> : "␊" # Line Feed (\n)
+<Multi_key> <at> <K> : "␋" # Line Tabulation, Vertical Tabulation (\v)
+<Multi_key> <at> <L> : "␌" # Form Feed (\f)
+<Multi_key> <at> <M> : "␍" # Carriage Return (\r)
+<Multi_key> <at> <N> : "␎" # Shift Out
+<Multi_key> <at> <O> : "␏" # Shift In
+<Multi_key> <at> <P> : "␐" # Data Link Escape
+<Multi_key> <at> <Q> : "␑" # Device Control One (XON)
+<Multi_key> <at> <R> : "␒" # Device Control Two
+<Multi_key> <at> <S> : "␓" # Device Control Three (XOFF)
+<Multi_key> <at> <T> : "␔" # Device Control Four
+<Multi_key> <at> <U> : "␕" # Negative Acknowledge
+<Multi_key> <at> <V> : "␖" # Synchronous Idle
+<Multi_key> <at> <W> : "␗" # End of Transmission Block
+<Multi_key> <at> <X> : "␘" # Cancel
+<Multi_key> <at> <Y> : "␙" # End of medium
+<Multi_key> <at> <Z> : "␚" # Substitute
