@@ -1,6 +1,23 @@
 # § ASCII control codes
 #
-# §2 Caret notation
+# Different mappings for graphical representations of ASCII control
+# characters.  These mappings use the “caret notation”: the second
+# symbol (argument) in the mapping uses the same symbol as is used to
+# represent the control character in caret notation.  For example, in
+# caret notation the “Start of Heading” character is represented in
+# caret notation as `^A`.  Thus the mappings for producing the graphical
+# representation use `a` and `A`:
+#
+#     <Multi_key> <at> <a> : "␁" # Start of Heading
+#     <Multi_key> <at> <A> : "␁" # Start of Heading
+#
+# §2 Two/Three-letter boxes
+#
+# Unicode provides special-purpose symbols for ASCII control codes named
+# “Symbol for X” (“Symbol for Null”, “Symbol for Escape”, etc.).  These
+# are symbols comprised of a box (square) with two or three letters
+# inside of them, for example “NUL” for the null symbol, or “ESC” for
+# the escape symbol.
 #
 # See: https://en.wikipedia.org/wiki/C0_and_C1_control_codes#C0_(ASCII_and_derivatives)
 <Multi_key> <at> <at> : "␀" # Null (\0)
