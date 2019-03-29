@@ -1,6 +1,6 @@
 # § ASCII control codes
 #
-# ASCII control codes using caret notation.
+# §2 Caret notation
 #
 # See: https://en.wikipedia.org/wiki/C0_and_C1_control_codes#C0_(ASCII_and_derivatives)
 <Multi_key> <at> <at> : "␀" # Null (\0)
@@ -37,7 +37,7 @@
 <Multi_key> <at> <underscore> : "␟" # Unit Separator
 <Multi_key> <at> <space> : "␠" # Space
 <Multi_key> <at> <question> : "␡" # Delete
-# §2 Capital letter variants
+# §3 Capital letter variants
 <Multi_key> <at> <A> : "␁" # Start of Heading
 <Multi_key> <at> <B> : "␂" # Start of Text
 <Multi_key> <at> <C> : "␃" # End of Text
@@ -65,7 +65,7 @@
 <Multi_key> <at> <Y> : "␙" # End of medium
 <Multi_key> <at> <Z> : "␚" # Substitute
 
-# § ISO 2047
+# §2 ISO 2047
 #
 # Graphical representation of control codes.
 #
@@ -104,7 +104,7 @@
 <Multi_key> <asterisk> <underscore> : "◳" U25F3 # Unit Separator
 <Multi_key> <asterisk> <space> : "△" U25B3 # Space
 <Multi_key> <asterisk> <question> : "␥" U2425 # Delete
-# §2 Capital letter variants
+# §3 Capital letter variants
 <Multi_key> <asterisk> <A> : "⎕" U2395 # Null
 <Multi_key> <asterisk> <A> : "⌈" U2308 # Start of Heading
 <Multi_key> <asterisk> <B> : "⊥" U22A5 # Start of Text
