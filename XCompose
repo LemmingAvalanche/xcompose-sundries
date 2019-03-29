@@ -64,3 +64,71 @@
 <Multi_key> <at> <X> : "␘" # Cancel
 <Multi_key> <at> <Y> : "␙" # End of medium
 <Multi_key> <at> <Z> : "␚" # Substitute
+
+# § ISO 2047
+#
+# Graphical representation of control codes.
+#
+# See: https://en.wikipedia.org/wiki/ISO_2047
+<Multi_key> <asterisk> <a> : "⎕" U2395 # Null
+<Multi_key> <asterisk> <a> : "⌈" U2308 # Start of Heading
+<Multi_key> <asterisk> <b> : "⊥" U22A5 # Start of Text
+<Multi_key> <asterisk> <c> : "⌋" U230B # End of Text
+<Multi_key> <asterisk> <d> : "⌁" U2301 # End of Transmission
+<Multi_key> <asterisk> <e> : "⊠" U22A0 # Enquiry
+<Multi_key> <asterisk> <f> : "✓" U2713 # Acknowledge
+<Multi_key> <asterisk> <g> : "⍾" U237E # Bell
+<Multi_key> <asterisk> <h> : "⌫" U232B # Backspace
+<Multi_key> <asterisk> <i> : "⪫" U2AAB # Horizontal Tabulation
+<Multi_key> <asterisk> <j> : "≡" U2261 # Line Feed
+<Multi_key> <asterisk> <k> : "⩛" U2A5B # Vertical Tabulation
+<Multi_key> <asterisk> <l> : "↡" U21A1 # Form Feed
+<Multi_key> <asterisk> <m> : "⪪" U2AAA # Carriage Return
+<Multi_key> <asterisk> <n> : "⊗" U2297 # Shift Out
+<Multi_key> <asterisk> <o> : "⊙" U2299 # Shift In
+<Multi_key> <asterisk> <p> : "⊟" U229F # Data Link Escape
+<Multi_key> <asterisk> <q> : "◷" U25F7 # Device Control 1
+<Multi_key> <asterisk> <r> : "◶" U25F6 # Device Control 2
+<Multi_key> <asterisk> <s> : "◵" U25F5 # Device Control 3
+<Multi_key> <asterisk> <t> : "◴" U25F4 # Device Control 4
+<Multi_key> <asterisk> <u> : "⍻" U237B # Negative Acknowledge
+<Multi_key> <asterisk> <v> : "⎍" U238D # Synchronization
+<Multi_key> <asterisk> <w> : "⊣" U22A3 # End of Transmission Block
+<Multi_key> <asterisk> <x> : "⧖" U29D6 # Cancel
+<Multi_key> <asterisk> <y> : "⍿" U237F # End of Medium
+<Multi_key> <asterisk> <z> : "␦" U2426 # Substitute Character
+<Multi_key> <asterisk> <bracketleft> : "⊖" U2296 # Escape
+<Multi_key> <asterisk> <backslash> : "◰" U25F0 # File Separator
+<Multi_key> <asterisk> <bracketright> : "◱" U25F1 # Group Separator
+<Multi_key> <asterisk> <asciicircum> : "◲" U25F2 # Record Separator
+<Multi_key> <asterisk> <underscore> : "◳" U25F3 # Unit Separator
+<Multi_key> <asterisk> <space> : "△" U25B3 # Space
+<Multi_key> <asterisk> <question> : "␥" U2425 # Delete
+# §2 Capital letter variants
+<Multi_key> <asterisk> <A> : "⎕" U2395 # Null
+<Multi_key> <asterisk> <A> : "⌈" U2308 # Start of Heading
+<Multi_key> <asterisk> <B> : "⊥" U22A5 # Start of Text
+<Multi_key> <asterisk> <C> : "⌋" U230B # End of Text
+<Multi_key> <asterisk> <D> : "⌁" U2301 # End of Transmission
+<Multi_key> <asterisk> <E> : "⊠" U22A0 # Enquiry
+<Multi_key> <asterisk> <F> : "✓" U2713 # Acknowledge
+<Multi_key> <asterisk> <G> : "⍾" U237E # Bell
+<Multi_key> <asterisk> <H> : "⌫" U232B # Backspace
+<Multi_key> <asterisk> <I> : "⪫" U2AAB # Horizontal Tabulation
+<Multi_key> <asterisk> <J> : "≡" U2261 # Line Feed
+<Multi_key> <asterisk> <K> : "⩛" U2A5B # Vertical Tabulation
+<Multi_key> <asterisk> <L> : "↡" U21A1 # Form Feed
+<Multi_key> <asterisk> <M> : "⪪" U2AAA # Carriage Return
+<Multi_key> <asterisk> <N> : "⊗" U2297 # Shift Out
+<Multi_key> <asterisk> <O> : "⊙" U2299 # Shift In
+<Multi_key> <asterisk> <P> : "⊟" U229F # Data Link Escape
+<Multi_key> <asterisk> <Q> : "◷" U25F7 # Device Control 1
+<Multi_key> <asterisk> <R> : "◶" U25F6 # Device Control 2
+<Multi_key> <asterisk> <S> : "◵" U25F5 # Device Control 3
+<Multi_key> <asterisk> <T> : "◴" U25F4 # Device Control 4
+<Multi_key> <asterisk> <U> : "⍻" U237B # Negative Acknowledge
+<Multi_key> <asterisk> <V> : "⎍" U238D # Synchronization
+<Multi_key> <asterisk> <W> : "⊣" U22A3 # End of Transmission Block
+<Multi_key> <asterisk> <X> : "⧖" U29D6 # Cancel
+<Multi_key> <asterisk> <Y> : "⍿" U237F # End of Medium
+<Multi_key> <asterisk> <Z> : "␦" U2426 # Substitute Character
