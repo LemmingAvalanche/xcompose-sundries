@@ -149,3 +149,13 @@
 <Multi_key> <asterisk> <X> : "⧖" U29D6 # Cancel
 <Multi_key> <asterisk> <Y> : "⍿" U237F # End of Medium
 <Multi_key> <asterisk> <Z> : "␦" U2426 # Substitute Character
+
+# §2 Other
+#
+# See: https://unicode-table.com/en/blocks/control-pictures/
+<Multi_key> <question> <b> : "␢" U2422 # Blank Symbol
+<Multi_key> <question> <space> : "␣" U2423 # Open Box
+<Multi_key> <question> <j> : "␤" U2424 # Symbol for Newline
+<Multi_key> <question> <J> : "␤" U2424 # Symbol for Newline
+<Multi_key> <question> <m> : "␤" U2424 # Symbol for Newline
+<Multi_key> <question> <M> : "␤" U2424 # Symbol for Newline
