@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Make a table of contents.
+#
+# Input: an XCompose file.
+grep --line-number -e "# §" "$1" |
+    sed -e 's/:# § /: /' \
+        -e 's/:# §2 /: ../' \
+        -e 's/:# §3 /: ..../' \
+        -e 's/:# §4 /: ....../' \
+        -e 's/:# §5 /: ......../' \
