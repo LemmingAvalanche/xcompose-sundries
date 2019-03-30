@@ -4,6 +4,9 @@
 #
 # Input: an XCompose file.
 grep --line-number -e "# §" "$1" |
+    # Align colons.
+    sed -e 's/^\(.\):/\1  :/' \
+        -e 's/^\(..\):/\1 :/' |
     sed -e 's/:# § /: /' \
         -e 's/:# §2 /: ../' \
         -e 's/:# §3 /: ..../' \
